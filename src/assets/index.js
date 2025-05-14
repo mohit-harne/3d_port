@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
+
+import backend from "./skills/backend.png";
+import creator from "./skills/creator.png";
+import mobile from "./skills/mobile.png";
+import web from "./skills/web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import bandage from './projects/bandage.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -20,22 +20,25 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import shoe from './projects/shoe.png'
+import letter from './projects/letter.png'
+import login from './projects/login.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import movie from './projects/movie.png'
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import droid from './company/droid.png'
+import ayam_studios from './company/ayam_studios.png'
 
 export {
-  logo,
+  
   backend,
   creator,
   mobile,
   web,
+  bandage,
   github,
   menu,
   close,
@@ -57,6 +60,10 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  shoe,
+  movie,
+  login,
+  letter,
+  droid,
+  ayam_studios,
 };

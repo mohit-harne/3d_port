@@ -7,6 +7,9 @@ import Experience from './Experience';
 import Works from './Works';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import VideoEditing from './VideoEditing';
+import Design from './Design';
+import Carousel from './Carousel';
 
 export {
   Hero,
@@ -14,11 +17,14 @@ export {
   About,
   Tech,
   Experience,
+  Design,
   Works,
+  Carousel,
   Feedbacks,
   Contact,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  VideoEditing
 }

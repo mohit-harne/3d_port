@@ -44,23 +44,19 @@ return (
 )
 }
 
-const Works = () => {
+const Design = () => {
   return (
     <>
      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={styles.sectionHeadText}>Design</h2>
       </motion.div>
       <div className="w-full flex">
 <motion.p
 variants={fadeIn("", "", 0.1, 1)}
 className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 >
-Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
+The projects in this section represent my journey in design, combining creativity with technical proficiency. With hands-on experience in tools like Figma, Photoshop, Illustrator, After Effects, and others, I’ve worked on a variety of design tasks—from crafting user-friendly interfaces and brand identities to producing engaging motion graphics. These examples showcase not only my eye for aesthetics but also my understanding of functionality, user experience, and cross-platform design standards.
 </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
@@ -75,4 +71,4 @@ Following projects showcases my skills and experience through
   )
 }
 
-export default SectionWrapper(Works, "development");
+export default SectionWrapper(Design, "design");

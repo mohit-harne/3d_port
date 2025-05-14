@@ -44,12 +44,12 @@ return (
 )
 }
 
-const Works = () => {
+const VideoEditing = () => {
   return (
     <>
      <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My Work</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={styles.sectionHeadText}>Editing</h2>
       </motion.div>
       <div className="w-full flex">
 <motion.p
@@ -75,4 +75,4 @@ Following projects showcases my skills and experience through
   )
 }
 
-export default SectionWrapper(Works, "development");
+export default SectionWrapper(VideoEditing, "videoediting");

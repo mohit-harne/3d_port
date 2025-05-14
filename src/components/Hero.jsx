@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import { styles } from '../styles'
 import { ComputersCanvas } from "./canvas"
+import Carousel from "./Carousel"
 
 
 
@@ -37,8 +38,11 @@ className='w-3 h-3 rounded-full bg-secondary mb-1'
 </div>
 </a>
      </div>
+     
+   
     </section>
   )
+  
 }
 
 export default Hero

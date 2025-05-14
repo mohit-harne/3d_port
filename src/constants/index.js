@@ -15,15 +15,19 @@ import {
     git,
     figma,
     docker,
-    meta,
     starbucks,
     tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
+    bandage,
+    shoe,
+    login,
+    letter,
+    movie,
+    droid,
+    ayam_studios
   } from "../assets";
+
+  import Orangebitslogo1 from "../assets/company/Orangebitslogo1.png";
   
   export const navLinks = [
     {
@@ -31,8 +35,20 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "experience",
+      title: "Experience",
+    },
+    {
+      id: "design",
+      title: "Design",
+    },
+    {
+      id: "development",
+      title: "Development",
+    },
+    {
+      id: "videoediting",
+      title: "Editing",
     },
     {
       id: "contact",
@@ -116,24 +132,25 @@ import {
   
   const experiences = [
     {
-      title: "Fullstack Developer Internship",
-      company_name: "Vigo Technoworld",
-      icon: starbucks,
+      title: "Web Developer",
+      company_name: "Orangebits Software Technologies (India) Pvt Ltd",
+      icon: Orangebitslogo1,
       iconBg: "#383E56",
-      date: "August 2023 - February 2024",
+      date: "August 2024 - Ongoing",
       points: [
-        "Developed and deployed full-stack applications using modern web technologies including the MERN stack.",
-        "Collaborated on projects to enhance both frontend and backend functionalities.",
-        "Implemented RESTful APIs and integrated third-party services.",
-        "Assisted in deploying applications to various environments, including development, staging, and production.",
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+   
     {
       title: "React Developer Intern",
       company_name: "Sajal Technologies",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "February 2024 - July 2024",
+      date: "February 2024 - July 2024 ( 6 months )",
       points: [
         "Collaborated with cross-functional teams to design, develop, and implement scalable web applications using React and JavaScript.",
         "Wrote clean, maintainable, and efficient code following best practices.",
@@ -142,31 +159,51 @@ import {
         "Documented technical specifications and code changes.",
       ],
     },
+  
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Fullstack Developer Internship",
+      company_name: "Vigo Technoworld",
+      icon: starbucks,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "August 2023 - February 2024 ( 7 months )",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and deployed full-stack applications using modern web technologies including the MERN stack.",
+        "Collaborated on projects to enhance both frontend and backend functionalities.",
+        "Implemented RESTful APIs and integrated third-party services.",
+        "Assisted in deploying applications to various environments, including development, staging, and production.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+
+     {
+      title: "Video Editor | Drone Pilot | Animator | Data Processor",
+      company_name: "Droid Mining Solutions",
+      icon: droid,
+      iconBg: "#383E56",
+      date: "February 2022 - August 2023 ( 1.9 years )",
+     points: [
+  "Edited high-quality videos for marketing, documentation, and internal training using Adobe Premiere Pro and After Effects.",
+  "Operated drones for aerial surveys, inspections, and promotional footage, ensuring compliance with local regulations and safety standards.",
+  "Created 2D/3D animations to visualize mining processes and technical concepts, enhancing client understanding and engagement.",
+  "Processed large datasets including video, aerial imagery, and sensor data to support decision-making and reporting.",
+  "Collaborated with cross-functional teams to produce multimedia content tailored to project requirements and client needs.",
+  "Managed media assets and maintained an organized archive system for efficient retrieval and future use.",
+],
+    },
+
+     {
+      title: "3D Animator",
+      company_name: "Ayam Animation Studios",
+      icon: ayam_studios,
+      iconBg: "#383E56",
+      date: "January 2018 - February 2019 ( 1.2 years )",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+  "Designed and animated 3D characters, props, and environments using industry-standard software such as Autodesk Maya and Blender.",
+  "Collaborated with storyboard artists and directors to translate scripts into compelling animated sequences.",
+  "Implemented keyframe animation and motion capture cleanup for character and object movements.",
+  "Optimized 3D assets and animations for performance and visual quality across multiple formats and platforms.",
+  "Participated in team reviews and provided feedback to maintain animation quality and consistency with the studio's visual style.",
+  "Worked closely with rigging and lighting teams to ensure smooth pipeline integration and final rendering output.",
+],
     },
   ];
   
@@ -199,30 +236,26 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Letters Craft",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a language translation website using React and Tailwind CSS with interactive sliders and dynamic email integration.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: letter,
+      source_code_link: "https://letters-craft-git-main-mohitharne-gmailcoms-projects.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Bandage",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a responsive shopping website with React and Tailwind CSS, featuring real-time product data and robust cart management.",
       tags: [
         {
           name: "react",
@@ -237,13 +270,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bandage,
+      source_code_link: "https://bandage-ivory.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Sneakiss",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Built a dynamic shoe marketplace with React, integrating API data and interactive UI components for an enhanced user experience.",
       tags: [
         {
           name: "nextjs",
@@ -258,8 +291,50 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: shoe,
+      source_code_link: "https://shoe-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+    },
+    {
+      name: "MoviesFlix",
+      description:
+        "Developed a movie and web series review site with React, utilizing Axios for API data and Redux for efficient state management.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movie,
+      source_code_link: "https://movie-site-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+    },
+    {
+      name: "Login-Emoji",
+      description:
+        "Designed an interactive login page with dynamic emoji eye movements and password visibility toggle, styled with Tailwind.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: login,
+      source_code_link: "https://login-git-main-mohitharne-gmailcoms-projects.vercel.app/",
     },
   ];
   
