@@ -6,6 +6,8 @@ import web from "./skills/web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import design1 from "./design/design1.png";
+import design2 from "./design/design2.png";
 import bandage from './projects/bandage.png'
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -31,6 +33,7 @@ import movie from './projects/movie.png'
 import carrent from "./carrent.png";
 import droid from './company/droid.png'
 import ayam_studios from './company/ayam_studios.png'
+import crud from './projects/crud.png'
 
 export {
   
@@ -46,6 +49,7 @@ export {
   docker,
   figma,
   git,
+  crud,
   html,
   javascript,
   mongodb,
@@ -66,4 +70,6 @@ export {
   letter,
   droid,
   ayam_studios,
+  design1,
+  design2,
 };

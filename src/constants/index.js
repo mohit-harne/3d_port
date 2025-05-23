@@ -19,8 +19,11 @@ import {
     tesla,
     threejs,
     bandage,
+    design1,
+    design2,
     shoe,
     login,
+    crud,
     letter,
     movie,
     droid,
@@ -336,6 +339,27 @@ import {
       image: login,
       source_code_link: "https://login-git-main-mohitharne-gmailcoms-projects.vercel.app/",
     },
+     {
+      name: "CRUD - App",
+      description:
+        "Designed an interactive login page with dynamic emoji eye movements and password visibility toggle, styled with Tailwind.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: crud,
+      source_code_link: "https://next-crud-three.vercel.app/",
+    },
   ];
 
    const video_projects = [
@@ -354,8 +378,8 @@ import {
         },
       ],
      
-      video: "https://youtu.be/EngW7tLk6R8?si=wYaRaqqZrGDSzRQi",
-      source_code_link: "https://letters-craft-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+      video: "https://www.youtube.com/watch?v=waIRVjfVKkU&ab_channel=mohitharne",
+      source_code_link: "https://www.youtube.com/watch?v=waIRVjfVKkU&ab_channel=mohitharne",
     },
     {
       name: "video 2",
@@ -442,5 +466,93 @@ import {
       source_code_link: "https://login-git-main-mohitharne-gmailcoms-projects.vercel.app/",
     },
   ];
+
+  const design_projects = [
+    
+    {
+      name: "Design 1",
+      description:
+        "Created a responsive shopping website with React and Tailwind CSS, featuring real-time product data and robust cart management.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: design1,
+      source_code_link: "https://bandage-ivory.vercel.app/",
+    },
+    {
+      name: "Design 2",
+      description:
+        "Built a dynamic shoe marketplace with React, integrating API data and interactive UI components for an enhanced user experience.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: design2,
+      source_code_link: "https://shoe-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+    },
+    {
+      name: "video 4",
+      description:
+        "Developed a movie and web series review site with React, utilizing Axios for API data and Redux for efficient state management.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movie,
+      source_code_link: "https://movie-site-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+    },
+    {
+      name: "video 5",
+      description:
+        "Designed an interactive login page with dynamic emoji eye movements and password visibility toggle, styled with Tailwind.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: login,
+      source_code_link: "https://login-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+    },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects, video_projects };
+  export { services, technologies, experiences, testimonials, projects, video_projects, design_projects };

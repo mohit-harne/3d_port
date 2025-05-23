@@ -3,6 +3,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 3px #fff, 0 0 0px #fff;
+  },
+   .text-border {
+    -webkit-text-stroke: 1px black;
+    color: black;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
 
 * {
   margin: 0;
