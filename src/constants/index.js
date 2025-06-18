@@ -41,13 +41,14 @@ import {
       id: "experience",
       title: "Experience",
     },
+   
     {
+      id: "carousel",
+      title: "Development",
+    },
+     {
       id: "design",
       title: "Design",
-    },
-    {
-      id: "development",
-      title: "Development",
     },
     {
       id: "videoediting",
@@ -364,16 +365,16 @@ import {
 
    const video_projects = [
     {
-      name: "Video 1",
+      name: "Drone Survey Video",
       description:
-        "Developed a language translation website using React and Tailwind CSS with interactive sliders and dynamic email integration.",
+        "Drone Survey Video for Highway Construction Project, showcasing aerial footage and detailed analysis.",
       tags: [
         {
-          name: "react",
+          name: "Premire Pro",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "After Effects",
           color: "pink-text-gradient",
         },
       ],
@@ -381,178 +382,79 @@ import {
       video: "https://www.youtube.com/watch?v=waIRVjfVKkU&ab_channel=mohitharne",
       source_code_link: "https://www.youtube.com/watch?v=waIRVjfVKkU&ab_channel=mohitharne",
     },
-    {
-      name: "video 2",
+   {
+      name: "Construction Site Progress",
       description:
-        "Created a responsive shopping website with React and Tailwind CSS, featuring real-time product data and robust cart management.",
+        "Aerial footage of a construction site, highlighting progress and key milestones.",
       tags: [
         {
-          name: "react",
+          name: "Premire Pro",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "Media Encoder",
           color: "pink-text-gradient",
         },
       ],
-      image: bandage,
-      source_code_link: "https://bandage-ivory.vercel.app/",
+     
+      video: "https://www.youtube.com/watch?v=3Fwne-weeMk",
+      source_code_link: "https://www.youtube.com/watch?v=3Fwne-weeMk",
     },
-    {
-      name: "video 3",
+     {
+      name: "3D Animated Accident Investigation Video",
       description:
-        "Built a dynamic shoe marketplace with React, integrating API data and interactive UI components for an enhanced user experience.",
+        "Showcasing real-time analysis and detailed reporting",
       tags: [
         {
-          name: "nextjs",
+          name: "Premire Pro",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "Blender",
           color: "pink-text-gradient",
         },
-      ],
-      image: shoe,
-      source_code_link: "https://shoe-git-main-mohitharne-gmailcoms-projects.vercel.app/",
-    },
-    {
-      name: "video 4",
-      description:
-        "Developed a movie and web series review site with React, utilizing Axios for API data and Redux for efficient state management.",
-      tags: [
         {
-          name: "nextjs",
+          name: "Photoshop",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: movie,
-      source_code_link: "https://movie-site-git-main-mohitharne-gmailcoms-projects.vercel.app/",
-    },
-    {
-      name: "video 5",
-      description:
-        "Designed an interactive login page with dynamic emoji eye movements and password visibility toggle, styled with Tailwind.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: login,
-      source_code_link: "https://login-git-main-mohitharne-gmailcoms-projects.vercel.app/",
+     
+      video: "https://www.youtube.com/watch?v=CoF1vPRoifA",
+      source_code_link: "https://www.youtube.com/watch?v=CoF1vPRoifA",
     },
   ];
 
   const design_projects = [
     
     {
-      name: "Design 1",
+      name: "Real Estate Design",
       description:
-        "Created a responsive shopping website with React and Tailwind CSS, featuring real-time product data and robust cart management.",
+        "Designed a modern real estate advertisement with a focus on user engagement and aesthetic appeal, utilizing Figma for UI/UX design.",
       tags: [
         {
-          name: "react",
+          name: "Canva",
           color: "blue-text-gradient",
         },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
+        
       ],
       image: design1,
       source_code_link: "https://bandage-ivory.vercel.app/",
     },
     {
-      name: "Design 2",
+      name: "Cafe Banner Design",
       description:
-        "Built a dynamic shoe marketplace with React, integrating API data and interactive UI components for an enhanced user experience.",
+        "Designed a vibrant cafe banner with a focus on visual appeal and brand identity, utilizing Figma for UI/UX design.",
       tags: [
         {
-          name: "nextjs",
+          name: "Photoshop",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+       
       ],
       image: design2,
       source_code_link: "https://shoe-git-main-mohitharne-gmailcoms-projects.vercel.app/",
     },
-    {
-      name: "video 4",
-      description:
-        "Developed a movie and web series review site with React, utilizing Axios for API data and Redux for efficient state management.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: movie,
-      source_code_link: "https://movie-site-git-main-mohitharne-gmailcoms-projects.vercel.app/",
-    },
-    {
-      name: "video 5",
-      description:
-        "Designed an interactive login page with dynamic emoji eye movements and password visibility toggle, styled with Tailwind.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: login,
-      source_code_link: "https://login-git-main-mohitharne-gmailcoms-projects.vercel.app/",
-    },
+    
   ];
   
   export { services, technologies, experiences, testimonials, projects, video_projects, design_projects };

@@ -87,21 +87,21 @@ const App = () => {
             <About />
           </div>
 
-          <div id="carousel" className="min-h-screen">
-            <Carousel />
-          </div>
+         
 
           <div id="experience" className="min-h-screen">
             <Experience />
           </div>
-
+          <div id="carousel" className="min-h-screen">
+            <Carousel />
+          </div>
           <div id="design" className="min-h-screen">
             <Design />
           </div>
 
-          <div id="works" className="min-h-screen">
+          {/* <div id="works" className="min-h-screen">
             <Works />
-          </div>
+          </div> */}
 
           <div id="videoediting" className="min-h-screen">
             <VideoEditing />
