@@ -136,54 +136,29 @@ import {
   
   const experiences = [
     {
-      title: "Web Developer",
-      company_name: "Orangebits Software Technologies (India) Pvt Ltd",
+      title: "Fullstack Developer",
+      company_name: "Smart Software Services",
       icon: Orangebitslogo1,
       iconBg: "#383E56",
-      date: "August 2024 - Ongoing",
+      date: "March 2021 - Ongoing",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+       "Developing and maintaining scalable web applications using React.js, Next.js, JavaScript, and REST APIs for enterprise and customer-facing platforms.",
+"Collaborating with product managers, UI/UX designers, backend developers, and QA teams to deliver high-quality features within Agile sprint cycles.",
+"Building responsive, cross-browser compatible user interfaces and optimizing application performance through code enhancements and reusable components.",
+"Participating in code reviews, debugging production issues, integrating APIs, and providing technical support to ensure application stability and quality.",
       ],
     },
    
-    {
-      title: "React Developer Intern",
-      company_name: "Sajal Technologies",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "February 2024 - July 2024 ( 6 months )",
-      points: [
-        "Collaborated with cross-functional teams to design, develop, and implement scalable web applications using React and JavaScript.",
-        "Wrote clean, maintainable, and efficient code following best practices.",
-        "Conducted unit testing, integration testing, and end-to-end testing to ensure software quality and reliability.",
-        "Investigated and debugged issues, providing timely and effective solutions.",
-        "Documented technical specifications and code changes.",
-      ],
-    },
+    
   
-    {
-      title: "Fullstack Developer Internship",
-      company_name: "Vigo Technoworld",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "August 2023 - February 2024 ( 7 months )",
-      points: [
-        "Developed and deployed full-stack applications using modern web technologies including the MERN stack.",
-        "Collaborated on projects to enhance both frontend and backend functionalities.",
-        "Implemented RESTful APIs and integrated third-party services.",
-        "Assisted in deploying applications to various environments, including development, staging, and production.",
-      ],
-    },
+   
 
      {
       title: "Video Editor | Drone Pilot | Animator | Data Processor",
       company_name: "Droid Mining Solutions",
       icon: droid,
       iconBg: "#383E56",
-      date: "February 2022 - August 2023 ( 1.9 years )",
+      date: "February 2017 - August 2018",
      points: [
   "Edited high-quality videos for marketing, documentation, and internal training using Adobe Premiere Pro and After Effects.",
   "Operated drones for aerial surveys, inspections, and promotional footage, ensuring compliance with local regulations and safety standards.",
@@ -199,7 +174,7 @@ import {
       company_name: "Ayam Animation Studios",
       icon: ayam_studios,
       iconBg: "#383E56",
-      date: "January 2018 - February 2019 ( 1.2 years )",
+      date: "December 2015 - September 2016",
       points: [
   "Designed and animated 3D characters, props, and environments using industry-standard software such as Autodesk Maya and Blender.",
   "Collaborated with storyboard artists and directors to translate scripts into compelling animated sequences.",
