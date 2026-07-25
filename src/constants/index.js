@@ -136,11 +136,11 @@ import {
   
   const experiences = [
     {
-      title: "Fullstack Developer",
-      company_name: "Smart Software Services",
+      title: "Frontend Developer",
+      company_name: "Orangebits Technologies",
       icon: Orangebitslogo1,
       iconBg: "#383E56",
-      date: "March 2021 - Ongoing",
+      date: "Aug 2024 - July 2025",
       points: [
        "Developing and maintaining scalable web applications using React.js, Next.js, JavaScript, and REST APIs for enterprise and customer-facing platforms.",
 "Collaborating with product managers, UI/UX designers, backend developers, and QA teams to deliver high-quality features within Agile sprint cycles.",
